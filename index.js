@@ -282,6 +282,7 @@ function removeArtist(array, i){
 console.log(`Task 5: The new array length is`, removeArtist(artists, 0));
    
 
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
 1. Receive an array
@@ -298,9 +299,19 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
-  }
+function addArtist(array){
+  array.push( { 
+    id: 20,
+    name: "Kenny Miesner", 
+    years: "1990 - Present",
+    genre: "Web Design", 
+    nationality: "Korean",
+    bio: "Kenny Miesner is a designer pursuing a future career in full stack web development. He is currently enrolled in cohort WEB45 full time, with an expected graduation date of November 2021.",
+  })
+  return array;
+}
+
+console.log(`Task 6:`, addArtist(artists));
 
   
 
