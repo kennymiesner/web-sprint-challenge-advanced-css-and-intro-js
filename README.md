@@ -22,10 +22,21 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+
+Accessibility is the idea that all of the web should be easily accessible by all people, no matter where you are, who you are, or what disabilities you may or may not have. Some key areas that may get over looked while creating a web property are color accessibility and typography size. The web is a wonderful place that should be accessible to everyone. It's our job as developers to ensure that.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+A few things you can do to help with accessibility: 1) Ensure all images have proper alt tags with useful descriptions for a screen reader, not keyword stuffing for SEO purposes. 2) Set root font size to 62.5% and all children font sizes using rem to allow user control of font-size through the browser settings. 3) Check colors for proper contrast ratios and avoid red/green mixtures specifically.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable holds a data value that can be changed or updated at any point in the program. You can use const, let, and (if you absolutely have to) var. Each have their unique characteristics and use cases. 
+
 4. What is the purpose of using functions in code?
+
+A function is a block of code that houses a particular task. You can later invoke and call the function to perform or execute that task at any time. You can also make functions reusable and pass parameters while invoking the function. This way you don't have to rewrite/copy and paste blocks of code over and over throughout your code.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
