@@ -142,11 +142,12 @@ button:hover{
 }
 .artist img{
     width:100%;
+    margin: 6% auto;
 }
 
 /* Responsive */
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     /* Header Section */
     nav {
         width: 60%;
@@ -162,6 +163,9 @@ button:hover{
         margin-top: 3%;
         padding: 2% 4%;
     }
+    hr {
+        display: none;
+    }
     /* Artist Section */
     .artists-container {
         flex-direction: column;
@@ -170,7 +174,20 @@ button:hover{
     .artist {
         width: 100%;
     }
-    .artist img {
-        margin: 6% auto;
+}
+
+@media (max-width: 500px) {
+    /* Header Section */
+    nav {
+        width: 80%;
+    }
+    /* Title Section */
+    button {
+        margin-top: 3%;
+        padding: 3% 5%;
+    }
+    /* Artist Section */
+    img {
+        height: 25rem;
     }
 }
