@@ -322,11 +322,18 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(array){
+  const newArr = [];
+  for(let i = 0; i < array.length; i++) {
+    if(array[i].paintings > 100) {
+      newArr.push(array[i].name);
+    }
+  }
+  return newArr;
 }
 
-
+console.log(`Task 7:`, lotsOfArt(artists));
+// NOTE: Returned array does not include "Amedeo Modigliani". Is this due to Task 5 and the removal of the first item? If I comment that task out, everything appears to work as intended.
 
 
 // 🎨🎨 STRETCH 🎨🎨//
