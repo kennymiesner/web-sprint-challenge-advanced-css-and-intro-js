@@ -38,6 +38,7 @@ h1, p, .name, .bio {
 h1{
     font-size:6rem;
     margin:0;
+    line-height: 1.25;
 }
 a {	
     text-decoration: none;	
@@ -79,6 +80,7 @@ nav{
 }
 nav a{
     color:#626262;
+    line-height: 1;
 }
 nav span{
     border-left:3px solid #626262;
@@ -116,7 +118,8 @@ button{
     border-radius:6px;
     border:2px solid #626262;
     box-shadow: 2px 2px 1px #626262;
-    transition: 2s;
+    transition: 0.3s;
+    margin-top: 1%;
 }
 button:hover{
     background-color:#626262;
@@ -144,6 +147,30 @@ button:hover{
 /* Responsive */
 
 @media (max-width: 500px) {
-    /* Mobile Styles Go Here */
-
+    /* Header Section */
+    nav {
+        width: 60%;
+    }
+    /* Title Section */
+    .title-container div {
+        width: 100%;
+    }
+    h1 {
+        font-size: 4.5rem;
+    }
+    button {
+        margin-top: 3%;
+        padding: 2% 4%;
+    }
+    /* Artist Section */
+    .artists-container {
+        flex-direction: column;
+        width:80%;
+    }
+    .artist {
+        width: 100%;
+    }
+    .artist img {
+        margin: 6% auto;
+    }
 }
