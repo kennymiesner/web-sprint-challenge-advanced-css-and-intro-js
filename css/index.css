@@ -147,7 +147,7 @@ button:hover{
 
 /* Responsive */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     /* Header Section */
     nav {
         width: 60%;
@@ -176,7 +176,7 @@ button:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     /* Header Section */
     nav {
         width: 80%;
